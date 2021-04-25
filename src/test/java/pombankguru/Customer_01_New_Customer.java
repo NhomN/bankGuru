@@ -30,7 +30,7 @@ public class Customer_01_New_Customer extends AbstractTest{
 		log.info("Pre-condition - Step 01: Click to 'Here' Link");
 		registerPage.clickToHereLink();
 		
-		log.info("Pre-condition - Step 02: Enter to 'Email ID' Textbox");
+		log.info("Pre-condition - Step 02: Enter to 'Email IDD' Textbox");
 		registerPage.enterToTextboxByName(driver, emailID, "emailid");
 		
 		log.info("Pre-condition - Step 03: Click to 'Submit' Button");
